@@ -1,0 +1,27 @@
+/* 3 column grid structure. */
+
+
+[class *="a_"]{  
+/*margin-top: -60%;*/
+
+}
+.a_1of2{
+	float: left;
+	width: 7%;
+	/*margin-right: 16%;*/
+}
+
+.a_2of2{
+	float: left;
+	width: 7%;
+	/*margin-right:7%;*/
+}
+
+@media (max-width: 430px){
+	.a_1of2{
+
+	}
+	.a_2of2{
+
+	}
+}
