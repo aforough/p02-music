@@ -45,35 +45,38 @@
 
 
 /* ---------------- global nav grid -------------------- */
-.col_nav_1of3{
+
+.col_nav_2of4{
+	margin-left: 1em;
 	width: 15%;
 }
-.col_nav_2of3{
+.col_nav_3of4{
 	width: 15%;
 }
-.col_nav_3of3{
+.col_nav_4of4{
 	width: 20%;
 }
 
-@media (max-width: 869px){
-	.col_nav_1of3{
-		width: 30%;
+@media (max-width: 960px){
+	.col_nav_2of4{
+		margin-left: 0;
+		width: 25%;
 	}
-	.col_nav_2of3{
-		width: 30%;
+	.col_nav_3of4{
+		width: 25%;
 	}
 	.col_nav_3of3{
-		width: 30%;
+		width: 25%;
 	}
 }
-@media (max-width: 640px){
-	.col_nav_1of3{
+@media (max-width: 880px){
+	.col_nav_2of4{
 		width: 100%;
 	}
-	.col_nav_2of3{
+	.col_nav_3of4{
 		width: 100%;
 	}
-	.col_nav_3of3{
+	.col_nav_4of4{
 		width: 100%;
 	}
 }
