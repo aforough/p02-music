@@ -4,54 +4,8 @@ body {
 }
 
 
-section:not([id]) {
-	border-top: 1px solid #DEDEDE;
-	margin: 4em 0;
-  	padding: 0.5em 0;
-}
-
-
-
-section code {
-	background-color: #F2F2F2;
-	color: #828C8C;
-	display: block;
-	padding: 0.5em;
-}
-
-
-/* 
-  BRAND COLORS SECTION -------------------
-*/
-.brand_color{
-	box-sizing: border-box;
-	width: 22%;
-	margin-right: 3%;
-	padding: 0.3em;
-	text-align: center;
-}
-.color_a{
-	background-color: #00D6E3;
-	color: #fff;
-}
-.color_b{
-	background-color: #DEDEDE;
-}
-.color_c{
-	background-color: #979797;
-}
-.color_d{
-	background-color: #000;
-	color: #fff;
-}
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-
 /** Styling for nav buttons **/
-nav a, .button-nav {
+nav a, .nav_button {
 	font-size: 1em;
 	font-weight: 800;
 	text-transform: capitalize;
@@ -60,7 +14,7 @@ nav a, .button-nav {
 	text-align: left;
 	margin-right: 1.5em;
 	padding-bottom: 0.2em;
-	margin-bottom: 0.7em;
+	margin-bottom: 1em;
 	border-bottom: 1px dotted #fff;
 	color: #00D6E3;
 	text-transform: uppercase;
@@ -69,13 +23,18 @@ nav a, .button-nav {
 	transition-duration:  0.5s;
 }
 
-nav a:hover, nav a:focus, .button-nav:hover, .button-nav:focus {
+nav a:hover, nav a:focus, .nav_button:hover, .nav_button:focus {
 	border-bottom: 1px dotted #DEDEDE;
 	color: #DEDEDE;
 	transition-property: color, border-bottom;
 	transition-duration:  0.5s;
 
 }
+
+.main_nav{
+	margin-bottom: 2em;
+}
+
 
 /** Styling for in text links **/
 .in-text-link{
@@ -92,11 +51,6 @@ nav a:hover, nav a:focus, .button-nav:hover, .button-nav:focus {
 	transition-property: border-bottom;
 	transition-duration:  0.5s;
 
-}
-
-.main_nav{
-	border-bottom: 1px solid #DEDEDE;
-	margin-bottom: 3em;
 }
 
 .secondary_nav a{
