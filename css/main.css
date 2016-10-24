@@ -282,9 +282,6 @@ input.button_submit:hover, input.button_submit:focus{
   PRODUCT MODULE STYLING -------------------
 */
 
-.img{
-	width: 10%;
-}
 
 .module{
 	box-sizing: border-box;

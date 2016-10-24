@@ -52,3 +52,19 @@ margin-bottom: 2%;
 		margin-left: 2%;
 	}
 }
+
+@media (max-width: 570px){
+	.col_module_1of3{
+		width: 100%;
+	}
+	.col_module_2of3{
+		width: 100%;
+	}
+	.col_module_3of3{
+		width: 100%;
+	}
+	.col_module_1of3_plus{
+		width: 100%;
+		/*margin-left: 2%;*/
+	}
+}
