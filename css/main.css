@@ -1,0 +1,30 @@
+/** Styling for nav buttons **/
+nav a, .nav_button {
+	font-size: 1em;
+	font-weight: 800;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 1.5em;
+	padding-bottom: 0.2em;
+	margin-bottom: 1em;
+	border-bottom: 1px dotted #fff;
+	color: #00D6E3;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition-property: color, border-bottom;
+	transition-duration:  0.5s;
+}
+
+nav a:hover, nav a:focus, .nav_button:hover, .nav_button:focus {
+	border-bottom: 1px dotted #DEDEDE;
+	color: #DEDEDE;
+	transition-property: color, border-bottom;
+	transition-duration:  0.5s;
+
+}
+
+.main_nav{
+	margin: 2em 1em;
+}

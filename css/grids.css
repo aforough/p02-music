@@ -1,0 +1,79 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.grid:after{
+	content: "";
+	clear:both;
+}
+
+
+[class *="col_"]{  
+	float: left;
+
+}
+[class *='col_'] {
+	margin-right: 20px;
+}
+[class *='col_']:last-of-type {
+	margin-right: 0;
+}
+
+/* 2 column grid structure. */
+.col_1of2{
+	width: 7%;
+	/*margin-right: 16%;*/
+}
+
+.col_2of2{
+	width: 7%;
+	/*margin-right:7%;*/
+}
+
+@media (max-width: 430px){
+	.col_1of2{
+
+	}
+	.col_2of2{
+
+	}
+}
+
+
+
+/* ---------------- global nav grid -------------------- */
+.col_nav_1of3{
+	width: 15%;
+}
+.col_nav_2of3{
+	width: 15%;
+}
+.col_nav_3of3{
+	width: 20%;
+}
+
+@media (max-width: 869px){
+	.col_nav_1of3{
+		width: 30%;
+	}
+	.col_nav_2of3{
+		width: 30%;
+	}
+	.col_nav_3of3{
+		width: 30%;
+	}
+}
+@media (max-width: 640px){
+	.col_nav_1of3{
+		width: 100%;
+	}
+	.col_nav_2of3{
+		width: 100%;
+	}
+	.col_nav_3of3{
+		width: 100%;
+	}
+}
