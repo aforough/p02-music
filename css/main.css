@@ -197,6 +197,10 @@ li{
 
 
 /** Styling for buttons **/
+.form{
+	width: 25%;
+}
+
 .form_buttons {
 	display: inline-block;
 	margin-right: 2em;
