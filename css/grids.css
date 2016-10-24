@@ -11,6 +11,11 @@
 	clear: both; 
 }
 
+/*.grid_login:after{
+	display: table;     
+	content: '';     
+	clear: both; 
+}*/
 
 [class *="col_"]{  
 	float: left;
@@ -109,6 +114,24 @@ margin-bottom: 2%;
 	}
 	.col_module_1of3_plus{
 		width: 100%;
-		/*margin-left: 2%;*/
 	}
+
+/*
+[class *="grid_login"]{  
+margin-top: 15%;
+width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+}*/
+
+.grid_login{
+	max-width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	margin-top: 15%;
 }
+
+
+

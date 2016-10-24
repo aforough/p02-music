@@ -174,8 +174,12 @@ li{
 
 
 /** Styling for buttons **/
-.form{
+/*.form{
 	width: 25%;
+}*/
+
+.option{
+    width: 100%;
 }
 
 .form_buttons {
