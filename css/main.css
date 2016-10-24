@@ -1,10 +1,27 @@
 body {
 	font-family: "Avenir", Helvetica, sans-serif;
-	margin: 8%;
+}
+
+.landing_background{
+	margin-top: 2em;
+	width: 100%;
+	height: 450px;
+	background-color: #DEDEDE;
+}
+.landing_background h1,  .landing_background p{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.landing_background h1{
+	padding-top: 200px;
 }
 
 
-/** Styling for nav buttons **/
+/** Styling for nav  **/
 nav a, .nav_button {
 	font-size: 1em;
 	font-weight: 800;
@@ -79,6 +96,12 @@ h3{
 	letter-spacing: 3px;
 	text-transform: capitalize;
 	margin-top: 2em;
+}
+h4 {
+  font-size: 2em;
+  color: #00D6E3;
+  width: 100%;
+  text-align: center;
 }
 
 p{
@@ -159,9 +182,18 @@ li{
 	display: inline-block;
 	margin-right: 2em;
 }
+
 .module_buttons{
 	display: inline-block;
 }
+
+.centered.module_buttons{
+	text-align: center;
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
 
 input.button_submit{
 	box-sizing: border-box;
@@ -240,6 +272,10 @@ input.button_submit:hover, input.button_submit:focus{
   PRODUCT MODULE STYLING -------------------
 */
 
+
+.module_listing{
+	margin:8%;
+}
 
 .module{
 	box-sizing: border-box;
