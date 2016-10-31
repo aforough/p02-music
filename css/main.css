@@ -326,6 +326,10 @@ audio{
 	min-width: 25%;
 
 
+	transition-property: color, box-shadow;
+	transition-duration:  0.5s;
+
+
 }
 
 .module:hover{
@@ -398,7 +402,9 @@ audio{
 }
 
 
-
+a:hover{
+	cursor: pointer;
+}
 
 
 
