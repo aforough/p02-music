@@ -151,6 +151,9 @@ input[type=text]:focus{
     margin-bottom: 1em;
     /*transition-property: border-bottom;
     transition-duration: 0.5s;*/
+    background-image: url("img/search.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
 }
 .form_search input[type=text]:focus{
 	/*border-bottom: 2px solid #00D6E3;*/
