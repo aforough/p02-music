@@ -3,7 +3,10 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+.grid{
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
 
 .grid:after{
 	display: table;     
