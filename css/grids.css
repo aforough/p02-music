@@ -113,6 +113,9 @@ margin-bottom: 6%;
 	height: auto;
 }
 
+.pdp_details, .pdp_composer{
+	padding-top: 5em;
+}
 
 
 
@@ -139,6 +142,10 @@ margin-bottom: 6%;
 		width: 45%;
 		margin-left: 2%;
 	}
+	.pdp_details, .pdp_composer{
+	padding-top: 0;
+}
+
 }
 
 @media (max-width: 570px){

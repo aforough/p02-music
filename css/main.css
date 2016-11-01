@@ -168,9 +168,6 @@ input[type=text]:focus{
     margin-bottom: 1em;
     /*transition-property: border-bottom;
     transition-duration: 0.5s;*/
-    background-image: url("img/search.png");
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
 }
 .form_search input[type=text]:focus{
 	/*border-bottom: 2px solid #00D6E3;*/
@@ -187,7 +184,7 @@ input[type=text]:focus{
     border: none;
     outline: none;
     border-bottom: 2px solid #828C8C;
-    width: 20em;
+    width: 100%;
     margin-bottom: 1em;
     transition-property: border-bottom;
     transition-duration: 0.5s;
@@ -229,7 +226,7 @@ textarea{
 	padding: 0.5em 0;
     border: 2px solid #828C8C;
     outline: none;
-    width: 20em;
+    width: 100%;
     margin-bottom: 1em;
     transition-property: border-bottom;
     transition-duration: 0.5s;
@@ -497,7 +494,7 @@ img.nav_logo{
 }
 
 
-<<<<<<< HEAD
+
 /*profile styling -----------------------*/
 .profile_content{
 	padding-top: 2em;
@@ -546,9 +543,6 @@ a .module_to_pdp{
 	padding: 0;
 	margin: 1em 0;
 	color: #000;
-}
-.pdp_details{
-	/*vertical align this*/
 }
 
 /*.pdp_composer p{
