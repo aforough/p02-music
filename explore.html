@@ -32,10 +32,30 @@
 		<div class="grid module_listing">
 
 		<div class="grid">
-			<form class="form_search"> 
-			<!-- <label for="form-name"> Name:</label> -->
-			<input type="text" id="form-name" placeholder="Search..."> 
-			</form> 
+			<div class="search_bar">
+				<form class="form_search"> 
+				<!-- <label for="form-name"> Name:</label> -->
+				<input type="text" id="form-name" placeholder="Search a title or composer..."> 
+				</form> 
+				<a href="#"><img class="search_button" src="img/searchButton.png" alt="search button"></a>
+			</div>
+
+
+			<div class="col_toggle_1of3">
+				<a href="#">
+					<h3>Recently Added</h3>
+				</a>
+			</div>
+			<div class="col_toggle_2of3">
+				<a href="#">
+					<h3>Composers</h3>
+				</a>
+			</div>
+			<div class="col_toggle_3of3">
+				<a href="#">
+					<h3>Compositions</h3>
+				</a>
+			</div>
 
 			<div class="module col_module_1of3">
 				<img class="module_picture" src="img/sheet1.jpg" alt="placeholder for picture in wireframe">
@@ -257,32 +277,101 @@
 				</div>
 			</div>
 
+			<div class="module_buttons centered hero" id="load_more">
+				<input class="button_download" type="button" value="LOAD MORE">
+			</div>
+
+
+
+
+
+
+			<div class="module col_module_1of3 hidden" id="load_modules">
+				<img class="module_picture" src="img/sheet1.jpg" alt="placeholder for picture in wireframe">
+				<img class="module_play" src="img/playImg.png" alt="play button">
+				<div class="module_text">
+				<h2>
+				NOCTURNE NO. 13 IN C MINOR
+				</h2>
+				<h3>
+				Frederic Chopin
+				</h3>
+				</div>
+
+				<div class="module_buttons on_module">
+				<input class="button_add" type="button" value="+">
+				<input class="button_download" type="button" value="Download">
+				</div>
+
+			</div>
+
+			<div class="module col_module_2of3 hidden">
+				<img class="module_picture" src="img/sheet1.jpg" alt="placeholder for picture in wireframe">
+				<img class="module_play" src="img/playImg.png" alt="play button">
+			
+				<div class="module_text">
+				<h2>
+				NOCTURNE NO. 13 IN C MINOR
+				</h2>
+				<h3>
+				Frederic Chopin
+				</h3>
+				</div>
+				<div class="module_buttons on_module">
+				<input class="button_add" type="button" value="+">
+				<input class="button_download" type="button" value="Download">
+				</div>
+			</div>
+
+			<div class="module col_module_3of3 hidden">
+				<img class="module_picture" src="img/sheet6.jpg" alt="placeholder for picture in wireframe">
+				<img class="module_play" src="img/playImg.png" alt="play button">
+			
+				<div class="module_text">
+				<h2>
+				NOCTURNE NO. 13 IN C MINOR
+				</h2>
+				<h3>
+				Frederic Chopin
+				</h3>
+				</div>
+				<div class="module_buttons on_module">
+				<input class="button_add" type="button" value="+">
+				<input class="button_download" type="button" value="Download">
+				</div>
+			</div>
+
  			</div>
 
  			<div class="footer">
- 			<img src="img/logo3.png" class="col_footer_1of4">
+	 			<img src="img/logo3.png" class="col_footer_1of4">
 
- 			
- 			<ol class="link_list col_footer_2of4">
- 				<a class="nav_button_footer" href="explore.html" class="link_list"><li>Explore</li></a>
- 				<a class="nav_button_footer" href="our_story.html" class="link_list"><li>Our Story</li></a>
- 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Profile</li></a>
- 			</ol>
+	 			
+	 			<ol class="link_list col_footer_2of4">
+	 				<a class="nav_button_footer" href="explore.html" class="link_list"><li>Explore</li></a>
+	 				<a class="nav_button_footer" href="our_story.html" class="link_list"><li>Our Story</li></a>
+	 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Profile</li></a>
+	 			</ol>
 
 
-			<form class="form_newsletter col_footer_3of4"> 
-			<label for="form-name">Sign Up to Revieve RCM Updates:</label>
-			<input type="text" id="form-name" placeholder="email"> 
-			</form> 
+				<form class="form_newsletter col_footer_3of4"> 
+					<label for="form-name">Sign Up to Revieve RCM Updates:</label>
+					<input type="text" id="form-name" placeholder="email"> 
+					<input class="button_submit" type="button" value="Submit">
+				</form> 
+				
+				<p class="col_footer_4of4">
+					Contact: <br>
+					273 Bloor Street West <br>
+					Toronto Ontario M5S 1W2 <br>
+					Phone: 416.408.2824</p>
 
-			<p class="col_footer_4of4">
-				Contact: <br>
-				273 Bloor Street West <br>
-				Toronto Ontario M5S 1W2 <br>
-				Phone: 416.408.2824</p>
-
+ 			</div>
  		</div>
- 		</div>
+
+ 	<script src="js/zepto.js"></script>
+    <script src="js/main.js"></script>
+
 	</body>
 </html>
 

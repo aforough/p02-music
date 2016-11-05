@@ -161,6 +161,7 @@ input[type=text]:focus{
 	padding: 1em;
     border: none;
     outline: none;
+    position: relative;
     /*background-image: url("img/search.png");*/
     border: 1px solid #828C8C;
     width: 100%;
@@ -273,18 +274,19 @@ li{
 
 
 input.button_submit{
-	max-width: 100%;
 	box-sizing: border-box;
-	background-color: #fff;
-	border-style: none;
-	border-bottom: 3px solid #00D6E3;
-	color: #00D6E3;
-	font-size: 0.8em;
+    display: inline-block;
+    border: 1px solid #000000;
+	background-color: #ffffff;
+	color: #363636;
+	font-weight: 800;
+    font-size: 0.8em;
     letter-spacing: 2px;
     outline: none;
-    padding: 1em;
-	transition-duration: 0.5s;
-	margin-right: 0.5em;
+    padding: 1.15em 3em;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    margin-right: 0.5em;
 }
 
 input.button_reset{
@@ -335,16 +337,20 @@ input.button_add:hover, input.button_add:focus, input.button_download:hover, inp
 	background-color: #00D6E3;
 	color: #fff;
 	transition-duration: 0.5s;
+	cursor: pointer;
 }
 
 
 input.button_reset:hover, input.button_reset:focus{
 	background-color: #F2F2F2;
 	transition-duration: 0.5s;
+	cursor: pointer;
 }
 input.button_submit:hover, input.button_submit:focus{
-	background-color: #E0FDFF;
+	background-color: #00D6E3;
+	color: #fff;
 	transition-duration: 0.5s;
+	cursor: pointer;
 }
 
 
@@ -537,4 +543,34 @@ input.button_add:hover, input.button_add:focus, input.button_download_blog:hover
 	background-color: #00D6E3;
 	color: #fff;
 	transition-duration: 0.5s;
+}
+
+
+
+div.module:hover{
+	cursor: pointer;
+}
+
+a h2, a h3{
+	color: #000000;
+}
+
+
+div.search_bar{
+	position: relative;
+}
+
+img.search_button{
+	position: absolute;
+	width:5.5em;
+
+	/*min-width: 13%;*/
+	top: 8%;
+	right: .7%;
+}
+
+
+.hidden{
+	visibility: hidden;
+	display: none;
 }

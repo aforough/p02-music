@@ -96,10 +96,10 @@ margin-bottom: 6%;
 	width: 30.65%;
 }
 
-.col_module_1of3_plus{
+/*.col_module_1of3_plus{
 	width: 30.65%;
 	margin-right: 4%;
-}
+}*/
 
 
 /*grid for profile*/
@@ -213,4 +213,42 @@ margin-bottom: 6%;
 	}
 }
 
+/*  --------- for toggle on explore.html ---------  */
 
+[class *="col_toggle"]{  
+float: left;
+margin-bottom: 6%;
+}
+
+.col_toggle_1of3{
+	width: 20%;
+	margin-right: 5%;
+	margin-left: 20%;
+}
+
+.col_toggle_2of3{
+	width: 15%;
+	margin-right: 5%;
+}
+
+.col_toggle_3of3{
+	width: 15%;
+}
+
+@media (max-width: 570px){
+	.col_toggle_1of3{
+		margin-left: 0;
+		padding-left: 10%;
+		width: 100%;
+	}
+	.col_toggle_2of3{
+		margin-left: 0;
+		padding-left: 10%;
+		width: 100%;
+	}
+	.col_toggle_3of3{
+		padding-left: 10%;
+		padding-top: 0;
+		width: 100%;
+	}
+}
