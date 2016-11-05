@@ -113,6 +113,7 @@ h4 {
   width: 100%;
   text-align: center;
 }
+ 
 
 h4.trending{
   font-size: 2em;
@@ -168,9 +169,6 @@ input[type=text]:focus{
     margin-bottom: 1em;
     /*transition-property: border-bottom;
     transition-duration: 0.5s;*/
-    background-image: url("img/search.png");
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
 }
 .form_search input[type=text]:focus{
 	/*border-bottom: 2px solid #00D6E3;*/
@@ -179,6 +177,27 @@ input[type=text]:focus{
 }
 
 /** Styling for form **/
+.form_review input[type=text] {
+	background-color: white;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0.5em 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #828C8C;
+    width: 100%;
+    margin-bottom: 1em;
+    transition-property: border-bottom;
+    transition-duration: 0.5s;
+}
+.form_review input[type=text]:focus{
+	border-bottom: 2px solid #00D6E3;
+	transition-property:  border-bottom;
+    transition-duration: 0.5s;
+}
+
+
+
 .form_newsletter input[type=text] {
 	max-width: 100%;
 	background-color: white;
@@ -193,14 +212,13 @@ input[type=text]:focus{
     transition-property: border-bottom;
     transition-duration: 0.5s;
 
-
 }
+
 .form_newsletter input[type=text]:focus{
 	border-bottom: 2px solid #00D6E3;
 	transition-property:  border-bottom;
     transition-duration: 0.5s;
 }
-
 
 textarea{
 	background-color: white;
@@ -209,7 +227,7 @@ textarea{
 	padding: 0.5em 0;
     border: 2px solid #828C8C;
     outline: none;
-    width: 20em;
+    width: 100%;
     margin-bottom: 1em;
     transition-property: border-bottom;
     transition-duration: 0.5s;
@@ -259,7 +277,7 @@ li{
 	display: inline-block;
 }
 
-.centered.module_buttons{
+.centered{
 	text-align: center;
 	width:100%;
 	margin-left: auto;
@@ -482,6 +500,79 @@ img.nav_logo{
 }
 
 
+
+/*profile styling -----------------------*/
+.profile_content{
+	padding-top: 2em;
+	padding-bottom: 0;
+
+}
+
+.saved h2{
+	padding-top: 1.5em;
+}
+
+
+/* PDP styling -----------------------*/
+a .module_to_pdp{
+	color: #000;
+}
+
+.pdp_banner{
+	margin-top: 2.5em;
+}
+
+.pdp_picture{
+	width: 100%;
+	text-align: center;
+}
+@media (max-width: 630px){
+	.pdp_picture{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+.pdp_subheader {
+	margin: 0;
+	padding: 0;
+	font-size: 0.7em;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: #000;
+	width: 100%;
+	text-align: center;
+}
+
+.pdp_header{
+	font-size: 1.5em;
+	padding: 0;
+	margin: 1em 0;
+	color: #000;
+}
+
+/*.pdp_composer p{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 65em;
+	padding-bottom: 1em;
+}*/
+
+[class *="review_comment"] h2{
+	font-size: 1em;
+	text-transform: none;
+}
+
+[class *="review_comment"]{
+	border-bottom: 1px solid #DEDEDE;
+
+}
+
+.review_comment_last{
+	border-bottom:none ;
+}
 /** Styling for nav  **/
 nav a, .nav_button_footer {
 	font-size: 1em;

@@ -53,7 +53,7 @@
 	.col_nav_1of4{
 		margin-left: 0;
 		padding-left: 10%;
-		width: 100%;
+		width: 10em;
 		/*padding-top: 0;*/
 	}
 	.col_nav_2of4{
@@ -113,6 +113,9 @@ margin-bottom: 6%;
 	height: auto;
 }
 
+.pdp_details, .pdp_composer{
+	padding-top: 5em;
+}
 
 
 
@@ -139,6 +142,10 @@ margin-bottom: 6%;
 		width: 45%;
 		margin-left: 2%;
 	}
+	.pdp_details, .pdp_composer{
+	padding-top: 0;
+}
+
 }
 
 @media (max-width: 570px){
