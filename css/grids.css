@@ -27,6 +27,10 @@
 
 
 /* ---------------- global nav grid -------------------- */
+[class *="col_nav"]{  
+float: left;
+}
+
 .col_nav_1of4{
 	margin-left: -4%;
 	width: 15%;
@@ -40,8 +44,8 @@
 	padding-top: 8.5%;
 }
 .col_nav_3of4{
-	width: 15%;
-	margin-right: 7%;
+	width: 25%;
+	margin-right: 6%;
 	padding-top: 8.5%;
 }
 .col_nav_4of4{
@@ -49,28 +53,41 @@
 	padding-top: 8.5%;
 }
 
+.col_nav_5of4{
+	float: right;
+	width: 11%;
+	padding-top: 8.5%;
+	text-align: right;
+}
+
 @media (max-width: 860px){
 	.col_nav_1of4{
 		margin-left: 0;
-		padding-left: 10%;
-		width: 10em;
-		/*padding-top: 0;*/
+		width: 8em;
 	}
 	.col_nav_2of4{
 		margin-left: 0;
-		padding-left: 10%;
+		padding-left: 5%;
 		width: 100%;
 		padding-top: 0;
 	}
 	.col_nav_3of4{
-		padding-left: 10%;
+		padding-left: 5%;
 		width: 100%;
 		padding-top: 0;
 	}
 	.col_nav_4of4{
-		padding-left: 10%;
+		padding-left: 5%;
 		width: 100%;
 		padding-top: 0;
+	}
+
+	.col_nav_5of4{
+		padding-left: 5%;
+		width: 100%;
+		padding-top: 0;
+		float: left;
+		text-align: left;
 	}
 }
 
@@ -80,6 +97,7 @@
 [class *="col_module"]{  
 float: left;
 margin-bottom: 6%;
+
 }
 
 .col_module_1of3{
@@ -95,11 +113,6 @@ margin-bottom: 6%;
 .col_module_3of3{
 	width: 30.65%;
 }
-
-/*.col_module_1of3_plus{
-	width: 30.65%;
-	margin-right: 4%;
-}*/
 
 
 /*grid for profile*/
@@ -124,20 +137,21 @@ margin-bottom: 6%;
 	.col_module_1of3{
 		width: 47%;
 		margin-right: 6%;
+		margin-bottom:15%;
 	}
 	.col_module_2of3{
 		width: 47%;
 		margin-left: 0;
 		margin-right: 0;
+		margin-bottom:15%;
 	}
 	.col_module_3of3{
-		width: 47%;
-		margin-right: 2.5%;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom:15%;
 	}
-	.col_module_1of3_plus{
-		width: 47%;
-		margin-left: 2%;
-	}
+
 	.col_2-3of_3{
 		width: 45%;
 		margin-left: 2%;
@@ -158,9 +172,6 @@ margin-bottom: 6%;
 	.col_module_3of3{
 		width: 100%;
 	}
-	.col_module_1of3_plus{
-		width: 100%;
-	}
 	.col_2-3of_3{
 		width: 100%;
 	}
@@ -178,14 +189,12 @@ margin-bottom: 6%;
 /*----------------- grid structure for footer --------------------*/
 
 .col_footer_1of4{
-	/*margin-left: 10%;*/
 	width: 15%;
 	margin-right: 5%;
 }
 .col_footer_2of4{
-	/*margin-left: 10%;*/
 	width: 15%;
-	margin-right: 3%;
+	margin-right: 2%;
 }
 .col_footer_3of4{
 	width: 30%;
@@ -197,25 +206,21 @@ margin-bottom: 6%;
 	width: 20%;
 }
 
-@media (max-width: 860px){
+@media (max-width: 750px){
 	.col_footer_1of4{
 		margin-left: 0;
-		padding-left: 10%;
-		width: 100%;
+		width: 50%;
 	}
 	.col_footer_2of4{
 		margin-left: 0;
-		padding-left: 10%;
-		width: 100%;
+		width: 30%;
 	}
 	.col_footer_3of4{
-		padding-left: 10%;
-		padding-top: 0;
-		width: 100%;
+		padding-top: 17%;
+		width: 80%;
 	}
 	.col_footer_4of4{
-		padding-left: 10%;
-		padding-top: 0;
+		padding-top: 10%;
 		width: 100%;
 	}
 }
@@ -224,13 +229,13 @@ margin-bottom: 6%;
 
 [class *="col_toggle"]{  
 float: left;
-margin-bottom: 6%;
+margin-bottom: 3%;
 }
 
 .col_toggle_1of3{
 	width: 20%;
 	margin-right: 5%;
-	margin-left: 20%;
+	margin-left: 17.5%;
 }
 
 .col_toggle_2of3{
@@ -245,17 +250,201 @@ margin-bottom: 6%;
 @media (max-width: 570px){
 	.col_toggle_1of3{
 		margin-left: 0;
-		padding-left: 10%;
 		width: 100%;
 	}
 	.col_toggle_2of3{
 		margin-left: 0;
-		padding-left: 10%;
 		width: 100%;
 	}
 	.col_toggle_3of3{
-		padding-left: 10%;
 		padding-top: 0;
 		width: 100%;
 	}
+}
+
+
+/*----------- for number tabbing on comments ------------- */
+
+[class *="col_numbered"]{  
+float: left;
+margin-bottom: 6%;
+
+
+}
+
+.col_numbered_1of5{
+	width: 1%;
+	margin-right: 5%;
+}
+
+.col_numbered_2of5{
+	width: 1%;
+	margin-right: 5%;
+}
+
+.col_numbered_3of5{
+	width: 1%;
+	margin-right: 5%;
+}
+
+.col_numbered_4of5{
+	width: 1%;
+	margin-right: 5%;
+}
+
+.col_numbered_5of5{
+	width: 1%;
+	margin-right: 5%;
+}
+
+.col_numbered_1of5_centered{
+	width: 1%;
+	margin-right: 5%;
+	margin-left: 37%;
+}
+
+
+[class *="col_blog"]{  
+float: left;
+margin-bottom: 6%;
+padding-top: 5%;
+}
+.col_blog_1of2{
+	width: 30%;
+	margin-right: 4%;
+}
+
+.col_blog_2of2{
+	width: 60%;
+	margin-left: 2%;
+}
+
+
+/*------------------ landing page grid --------------------*/
+[class *="col_landing"]{  
+float: left;
+margin-bottom: 6%;
+}
+
+.col_landing_1of2{
+	width: 30%;
+	margin-left: 10%;
+}
+
+.col_landing_2of2{
+	width: 60%;
+	margin-left: -5%;
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+@media (max-width: 860px){
+	.col_landing_1of2{
+	width: 95%;
+	margin-left: 5%;
+	margin-top: -10%;
+	position: relative;
+	z-index: 1;
+}
+
+.col_landing_2of2{
+	position: relative;
+	margin-top: -40%;
+	opacity: .15;
+	width: 90%;
+	margin-left: 5%;
+	z-index: -10;
+	
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+}
+/* -------------- module buttons grid ---------------- */
+[class *="col_button"]{  
+float: left;
+
+}
+.col_button_1of2{
+	width: 10%;
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.col_button_2of2{
+	width: 50%;
+	margin-left: 5%;
+
+}
+
+@media (max-width: 800px){
+	.col_button_1of2{
+	width: 10%;
+	margin-left: 80%;
+	margin-right: 5%;
+}
+
+.col_button_2of2{
+	width: 50%;
+	margin-left: 5%;
+
+}
+}
+
+
+@media (max-width: 800px){
+	.col_button_1of2{
+	width: 10%;
+	margin-left: 15%;
+	margin-right: 5%;
+	/*padding-left: 10%;*/
+}
+
+.col_button_2of2{
+	width: 50%;
+	margin-left: 5%;
+
+}
+}
+
+/* -------------- login screen grid ---------------- */
+[class *="col_login"]{  
+float: left;
+margin-bottom: 6%;
+margin-top: 10%;
+}
+.col_login_1of2{
+	max-width: 25%;
+	margin-left: 5%;
+	/*max-width: 15%;*/
+	/*margin-left: 17%;*/
+}
+
+.col_login_2of2{
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 12%;
+
+}
+
+@media (max-width: 860px){
+	.col_login_1of2{
+	width: 95%;
+	margin-left: 5%;
+	margin-top: -10%;
+	position: relative;
+	z-index: 1;
+}
+
+.col_login_2of2{
+	position: relative;
+	margin-top: -40%;
+	opacity: .15;
+	width: 90%;
+	margin-left: 5%;
+	z-index: -10;
+
+}
 }

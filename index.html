@@ -12,125 +12,86 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/grids.css">
-		
 
 	</head>
 
 
 	<body>
-
+		<!-- main navigation -->
 		<div class="grid">
 			<a href="index.html" class="nav_button col_nav_1of4 nav_logo"><img class="nav_logo" src="img/royal2.png" alt="Royal Conservatory Logo"></a> 
 			<div class="main_nav">
 			<nav>
 				<a href="explore.html" class="nav_button col_nav_2of4">Explore</a>
 				<a href="our_story.html" class="nav_button col_nav_3of4">Our Story & Blog</a>
-				<a href="profile.html" class="nav_button col_nav_4of4">Profile</a>
+				<a href="index.html" class="nav_button col_nav_4of4">Login</a>
 			</nav>
 			</div>
 		</div>
 
-		<div class="landing_background">
-			<img src="img/hero.jpg" class="landing_img">
-			<div class="module_buttons centered hero">
-				<a href="explore.html"><input class="button_download" type="button" value="BROWSE ALL SHEET MUSIC"></a>
-			</div>
-			<p>“Look deeply into life, and study it as diligently as the other arts and sciences.” <br> ― Robert Schumann</p>
+		<!-- login module -->
+		<div class="grid" id="login">
 
-		</div>
 
-	
-		<h4 class="trending">Trending Now</h4>
-		<div class="module_listing">
+		<!-- <div class="col_login_1of2"> -->
+			<img class="col_login_1of2 login_img" src="img/portrait.jpg" alt="profile picture">
 
-		<div class="grid">
-		
-
-			<div class="module col_module_1of3">
-				<img class="module_picture" src="img/sheet1.jpg" alt="placeholder for picture in wireframe">
-				<img class="module_play" src="img/playImg.png" alt="play button">
-				<div class="module_text">
-				<h2>
-				NOCTURNE NO. 13 IN C MINOR
-				</h2>
-				<h3>
-				Frederic Chopin
-				</h3>
-				</div>
-
-				<div class="module_buttons on_module">
-				<input class="button_add" type="button" value="+">
-				<input class="button_download" type="button" value="Download">
-				</div>
-
-			</div>
-
-			<div class="module col_module_2of3">
-				<img class="module_picture" src="img/sheet2.jpg" alt="placeholder for picture in wireframe">
-				<img class="module_play" src="img/playImg.png" alt="play button">
+			<div class="col_login_2of2">
+			<h2>Login as Kathryn</h2>
 			
-				<div class="module_text">
-				<h2>
-				NOCTURNE NO. 13 IN C MINOR
-				</h2>
-				<h3>
-				Frederic Chopin
-				</h3>
-				</div>
-				<div class="module_buttons on_module">
-				<input class="button_add" type="button" value="+">
-				<input class="button_download" type="button" value="Download">
-				</div>
-			</div>
-
-			<div class="module col_module_3of3">
-				<img class="module_picture" src="img/sheet3.jpg" alt="placeholder for picture in wireframe">
-				<img class="module_play" src="img/playImg.png" alt="play button">
-			
-				<div class="module_text">
-				<h2>
-				NOCTURNE NO. 13 IN C MINOR
-				</h2>
-				<h3>
-				Frederic Chopin
-				</h3>
-				</div>
-				<div class="module_buttons on_module">
-				<input class="button_add" type="button" value="+">
-				<input class="button_download" type="button" value="Download">
-				</div>
-			</div>
-
- 			</div>
- 		</div>
- 		
-
- 		<div class="footer">
- 			<img src="img/logo3.png" class="col_footer_1of4">
-
- 			
- 			<ol class="link_list col_footer_2of4">
- 				<a class="nav_button_footer" href="explore.html" class="link_list"><li>Explore</li></a>
- 				<a class="nav_button_footer" href="our_story.html" class="link_list"><li>Our Story</li></a>
- 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Profile</li></a>
- 			</ol>
-
-
-			<form class="form_newsletter col_footer_3of4"> 
-				<label for="form-name">Sign Up to Revieve RCM Updates:</label>
-				<input type="text" id="form-name" placeholder="email"> 
-				<input class="button_submit" type="button" value="Submit">
+			<form> 
+				<label for="form-name"> Kathryn Cain </label> 
+				<input type="text" id="form-name" placeholder="password"> 
 			</form> 
 			
-			<p class="col_footer_4of4">
-				Contact: <br>
-				273 Bloor Street West <br>
-				Toronto Ontario M5S 1W2 <br>
-				Phone: 416.408.2824</p>
 
- 		</div>
+			<a href="home.html"><input class="button_download login" type="button" value="Login"></a>
+			<a href="#"><h3>Not you? Click to use another account</h3></a>
+			
+		</div>
+			<!-- <h4 class="trending login_header">Please enter your username + password to log in.</h4>
 
+			<div class="form_review" id="login">
+				<form> 
+					<label for="form-name">Username</label> <br>
+					<input type="text" id="form-name"> 
+					<label for="form-name">Password</label> <br>
+					<input type="text" id="form-name"> 
+				</form> 
+
+				<div> 
+					<a href="home.html"> <input class="button_download centered" type="button" value="Login"></a>
+				</div>
+
+			</div> -->
+			
+		</div>
+
+
+		<div class="footer">
+	 			<img src="img/logo3.png" class="col_footer_1of4">
+
+	 			
+	 			<ol class="link_list col_footer_2of4">
+	 				<a class="nav_button_footer" href="explore.html" class="link_list"><li>Explore</li></a>
+	 				<a class="nav_button_footer" href="our_story.html" class="link_list"><li>Our Story & Blog</li></a>
+	 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Profile</li></a>
+	 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Logout</li></a>
+	 			</ol>
+
+
+				<form class="form_newsletter col_footer_3of4"> 
+					<label for="form-name">Sign Up to Revieve RCM Updates:</label>
+					<input type="text" id="form-name" placeholder="email"> 
+					<input class="button_submit" type="button" value="Submit">
+				</form> 
+				
+				<p class="col_footer_4of4">
+					Contact: <br>
+					273 Bloor Street West <br>
+					Toronto Ontario M5S 1W2 <br>
+					Phone: 416.408.2824</p>
+
+ 			</div>
 
 	</body>
-</html>
-

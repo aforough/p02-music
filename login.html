@@ -10,8 +10,8 @@
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/grids.css">
 		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/grids.css">
 
 	</head>
 
@@ -19,19 +19,42 @@
 	<body>
 		<!-- main navigation -->
 		<div class="grid">
-			<a href="index.html" class="nav_button col_nav_1of4"> Logo placeholder </a> 
+			<a href="index.html" class="nav_button col_nav_1of4 nav_logo"><img class="nav_logo" src="img/royal2.png" alt="Royal Conservatory Logo"></a> 
 			<div class="main_nav">
 			<nav>
 				<a href="explore.html" class="nav_button col_nav_2of4">Explore</a>
-				<a href="our_story.html" class="nav_button col_nav_3of4">Our Story</a>
-				<a href="profile.html" class="nav_button col_nav_4of4">Profile</a>
+				<a href="our_story.html" class="nav_button col_nav_3of4">Our Story & Blog</a>
+				<a href="login.html" class="nav_button col_nav_4of4">Login</a>
 			</nav>
 			</div>
 		</div>
 
 
-		<div class="grid_login">
-			<h1>Login</h1>
+		<div class="grid">
+		<!-- <div class="col_login_1of2"> -->
+			<img class="col_login_1of2 login_img" src="img/portrait.jpg" alt="profile picture">
+
+			<div class="col_login_2of2">
+			<h2>Login as Kathryn</h2>
+			<!-- <form> 
+				<label for="form-name"> Username</label> 
+				<input type="text" id="form-name"> 
+			</form>  -->
+			<form> 
+				<label for="form-name"> Kathryn Cain </label> 
+				<input type="text" id="form-name" placeholder="password"> 
+			</form> 
+			
+
+			<a href="home.html"><input class="button_download login" type="button" value="Login"></a>
+			<a href="#"><h3>Not you? Click to use another account</h3></a>
+			</div>
+		</div>
+		</div>
+
+
+		<!-- <div class="grid_login">
+			<h2>Login as Kathryn</h2>
 			<form> 
 				<label for="form-name"> Username</label> 
 				<input type="text" id="form-name"> 
@@ -40,10 +63,36 @@
 				<label for="form-name"> Password </label> 
 				<input type="text" id="form-name"> 
 			</form> 
-			<!-- </div>
+			
 
-			<div> -->
-				<input class="button_download" type="button" value="Login">
-			</div>
+			<input class="button_download" type="button" value="Login">
+			<a href="#"><h3>Not you? Click to use another account</h3></a>
+			</div> -->
+		</div>
+		<div class="footer">
+ 			<a href="index.html"><img src="img/logo3.png" class="col_footer_1of4"></a>
+
+ 			
+ 			<ol class="link_list col_footer_2of4">
+ 				<a class="nav_button_footer" href="explore.html" class="link_list"><li>Explore</li></a>
+ 				<a class="nav_button_footer" href="our_story.html" class="link_list"><li>Our Story & Blog</li></a>
+ 				<a class="nav_button_footer" href="profile.html" class="link_list"><li>Profile</li></a>
+ 			</ol>
+
+
+			<form class="form_newsletter col_footer_3of4"> 
+				<label for="form-name">Sign Up to Revieve RCM Updates:</label>
+				<input type="text" id="form-name" placeholder="email"> 
+				<input class="button_submit" type="button" value="Submit">
+			</form> 
+			
+			<p class="col_footer_4of4">
+				Contact: <br>
+				273 Bloor Street West <br>
+				Toronto Ontario M5S 1W2 <br>
+				Phone: 416.408.2824
+			</p>
+
+ 		</div>
 
 	</body>
